@@ -7,3 +7,6 @@ for i in mylist:
 
 for k, v in mydict.items():
     print(f'{k}: {v}')
+
+
+# mydict = mydict
