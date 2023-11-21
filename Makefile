@@ -3,7 +3,7 @@ install: ## all installatio will lie here
 	pip install -r requirements.txt
 
 test: #testing scripts will lie here, it checks the logic of the code.
-	python -m pytest -vv test_hello.py
+	python -m pytest -vv test_*.py
 
 format: # formatting code will lie here
 	black *.py
